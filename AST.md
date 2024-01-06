@@ -50,7 +50,7 @@ One way to do this is in the while loop in the code for `visitCompoundStatement`
 - Stacks of Queues
 - Stacks contain branches/programs
 - Queue holds the Stacks of branches/programs
-- [**NOTE**] ==**Make sure *Queue* size is length *1*** so that nondeterminism isn't reduced more than once==
+- [**NOTE**] **Make sure *Queue* size is length *1*** so that nondeterminism isn't reduced more than once
 
 1. First, make a copy of TACO
 2. Create a new class: `JmAstDeterminizerVisitor` based on the `JmlAstClonerStatementVisitor` class
@@ -101,4 +101,4 @@ One way to do this is in the while loop in the code for `visitCompoundStatement`
     - `[[St1,St2,...FP,St_{i+1},...,Stn],[St1,St2,...SP,St_{i+1},...,Stn]]`
     5. To do this, we generate two arrays with cloned versions of `[St1,...St_{i-i}]` and if an *if* or *while* appears, we copy **FP** in one array and **SP** in the other, and continue with the remaining statements duplicating them in both arrays, in the while loop.
 
-[**NOTE**] ==**FP** is the first branch and **SP** is the second branch for the *if statement*==
+[**NOTE**] *FP** is the first branch and **SP** is the second branch for the *if statement*
