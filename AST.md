@@ -102,3 +102,27 @@ One way to do this is in the while loop in the code for `visitCompoundStatement`
     5. To do this, we generate two arrays with cloned versions of `[St1,...St_{i-i}]` and if an *if* or *while* appears, we copy **FP** in one array and **SP** in the other, and continue with the remaining statements duplicating them in both arrays, in the while loop.
 
 [**NOTE**] *FP** is the first branch and **SP** is the second branch for the *if statement*
+
+## <u>01-06-24</u>
+
+I will be using Mac from now to spend less time moving between Mac and WSL.
+
+## <u>01-08-24</u>
+
+Creating TACO project copy to begin creating the visitor method.
+
+New method located under utils directory, along with `JmlAstClonerStatementVisitor` and other related classes.
+
+Working on understanding `JmlAstClonerStatementVisitor`, as well as what a *visitor pattern* is, how it works, and how I am going to implement it.
+
+## <u>01-23-24</u>
+
+For the past couple of weeks, I have been researching how a Visitor Pattern works, as well as working out an example. My [notes](visitorDesignPattern.md) include everything I have learned by following a video as well as through other resources. Now, what I have to do is look at how this will be implemented in TACO under my copy of the project, and review the notes from before in order to traverse the AST.
+
+## <u>01-25-24</u>
+
+Insert new class into `aJavaCodeSimplifier` -> compilation_units
+
+## <u>02-01-24</u>
+
+Implemented `JmlAstDeterminzerVisitor` and ran TACO test successfully. Meeting today.
