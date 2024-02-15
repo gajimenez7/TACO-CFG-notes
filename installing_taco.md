@@ -30,11 +30,11 @@ For any questions, feel free to contact me through email or teams:
 
 ### Mac:
 
-Ant: export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+Ant: `export PATH="/usr/local/bin:/usr/local/sbin:$PATH"`
 
-- Homebrew:  nano ~/.zshrc -> export PATH="/usr/local/opt/ant@1.9/bin:$PATH"
+- Homebrew:  `nano ~/.zshrc -> export PATH="/usr/local/opt/ant@1.9/bin:$PATH"`
 
-Java: nano ~/.zshrc -> "export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home ; java -version"
+Java: nano ~/.zshrc -> `"export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home ; java -version"`
 
 ## Setup
 
