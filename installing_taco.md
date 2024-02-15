@@ -8,12 +8,13 @@
 - Java 1.7
 - Intellij
 
+[Note] If you have Windows, install WSL2 (Linux Virtual Machine through terminal) found on the microsoft store
+
 ### Installing Ant 1.9.16 and Java 1.7 (Java SE 7)
 
 #### Mac Installation:
 
-1. Download 1.9.16.tar.gz file from [Apache Ant](https://ant.apache.org/bindownload.cgi). (curl install into target directory)
-   - recommended target directory: "/usr/local/bin/ant"
+1. Download 1.9.16.tar.gz file from [Apache Ant](https://ant.apache.org/bindownload.cgi).
 2. Download Java 1.7 (Java SE 7) from [Oracle](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html). (Mac OS X  x64)
 
 #### Linux Installation:
@@ -21,6 +22,16 @@
 1. Download 1.9.16.tar.gz file from [Apache Ant](https://ant.apache.org/bindownload.cgi). (wget install into target directory)
 
 2. Download Java 1.7 (Java SE 7) from [Oracle](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html). (Linux x 64 tar.gz)
+
+## Paths
+
+### Mac:
+
+Ant: export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+
+- Homebrew:  nano ~/.zshrc -> export PATH="/usr/local/opt/ant@1.9/bin:$PATH"
+
+Java: nano ~/.zshrc -> "export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home ; java -version"
 
 ## Setup
 
