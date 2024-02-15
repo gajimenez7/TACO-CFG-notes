@@ -2,6 +2,9 @@
 
 ****
 
+For any questions, feel free to contact me through email or teams:
+<gajimenez7@miners.utep.edu>
+
 ## Requirements
 
 - Apache Ant 1.9
