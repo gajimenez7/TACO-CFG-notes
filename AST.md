@@ -126,3 +126,7 @@ Insert new class into `aJavaCodeSimplifier` -> compilation_units
 ## <u>02-01-24</u>
 
 Implemented `JmlAstDeterminzerVisitor` and ran TACO test successfully. Meeting today.
+
+## <u>02-19-24</u>
+
+Looking into `JmlMethodDeclaration` usages, it looks like what we need is 2 bodies, one for the first program and another for the second.
