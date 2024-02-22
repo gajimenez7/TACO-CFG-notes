@@ -1,7 +1,5 @@
 # AST
 
-==========================
-
 ## <u>01-04-24:</u>
 
 ### Creating a Control-Flow-Graph(CFG) from an Abstract Syntax Tree (AST)
