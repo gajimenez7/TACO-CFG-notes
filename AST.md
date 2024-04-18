@@ -128,3 +128,29 @@ Implemented `JmlAstDeterminzerVisitor` and ran TACO test successfully. Meeting t
 ## <u>02-19-24</u>
 
 Looking into `JmlMethodDeclaration` usages, it looks like what we need is 2 bodies, one for the first program and another for the second.
+
+## <u>02-28-24</u>
+
+There is an issue with the visitors, when calling accept, the pointer to the object containing the info for the programs is not getting pushed into the queue
+
+## <u>03-04-24</u>
+
+`JmlAstDeterminizerVisitor` successfully implemented for if statements. Now we have to implement a method for while statements
+
+- While statement branching:
+  - While condition is true
+    - How many times will the while statement loop, until the condition is fully satisfied?
+  - While condition is false
+    - If while condition is false, doesn't it just skip?
+- Testing:
+  - Which class to use:
+    - `bug01/AddLoop.java` would be to test both if statements and while loops
+    - Might need to create a test for pure while loops
+    - `Smallest.java` is also a good candidate, since it is only a while loop
+
+**Implementation:**
+Using `JLoopStatement.class`, we can use the following:
+
+- `addBreak()` or `addContinue()`
+
+Does it even need to have branching?
