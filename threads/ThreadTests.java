@@ -1,8 +1,12 @@
 package threads;
 
+import threads.CallableThread;
+import threads.TestObj;
+
 import java.util.*;
 import java.util.concurrent.*;
 
+@SuppressWarnings("unused")
 public class ThreadTests{
     public static void main(String[] args) {
         // random values
